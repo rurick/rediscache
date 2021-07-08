@@ -1,7 +1,7 @@
 // Copyright 2021 (c) Yuriy Iovkov aka Rurick.
-// iovkov@antsgames.com
+// yuriyiovkov@gmail.com
 
-package cache
+package rediscache
 
 import (
 	"testing"

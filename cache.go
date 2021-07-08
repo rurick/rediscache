@@ -1,5 +1,5 @@
 // Copyright 2021 (c) Yuriy Iovkov aka Rurick.
-// iovkov@antsgames.com
+// yuriyiovkov@gmail.com
 
 // access to redis cache.
 // params for connection to redis DB tacking from OS ENV:
@@ -10,7 +10,7 @@
 
 // default value of cache life time is 1 minute. You can change it by calling SetCacheLifeTime
 
-package cache
+package rediscache
 
 import (
 	"context"
