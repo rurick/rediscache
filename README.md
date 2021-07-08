@@ -15,4 +15,6 @@ import "github.com/rurick/rediscache"
 
 ```go
 rediscahe.SetCacheExpiration(2 * time.Minute)
+rediscahe.Set("key", 1)
+rediscahe.GetInt64("key", 1)
 ```
